@@ -14,4 +14,14 @@ def main() -> None:
     # Lists (dynamic arrays)
     temperatures_c = [70, 100, 120, 250]
 
-    #
+    #Dictionary (key-value pairs)
+    process_config = {
+        "layer_height_mm": 0.8,
+        "travel_speed_mm_s": max_speed_mm_s,
+        "shielding_gas_l_min": 10,
+    }
+
+    # Print
+    print(status_msg)
+    print(f"Nozzle diameter: {nozzle_diameter_mm} mm")
+    print(f)
